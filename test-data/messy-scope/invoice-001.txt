@@ -1,0 +1,5 @@
+Invoice
+Issuer: ACME Corp
+Date: 2026-03-15
+Total: EUR 812.00
+IBAN: XX00 1234 5678

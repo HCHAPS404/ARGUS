@@ -1,0 +1,16 @@
+# Tooling environment (machine-local, reproducible)
+.venv-tools/
+__pycache__/
+*.pyc
+
+# Official Uliya kit — third-party, re-downloadable from the hackathon CDN
+uliya-skill-kit/
+/uliya-skill-kit-*.zip
+
+# Stray artifacts
+nul
+
+# OS noise
+.DS_Store
+Thumbs.db
+~$*

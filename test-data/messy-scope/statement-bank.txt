@@ -1,0 +1,3 @@
+BANK STATEMENT
+Account: ES12 3456
+Period: 2026-02
