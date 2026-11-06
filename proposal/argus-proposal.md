@@ -34,7 +34,7 @@ The parent SKILL.md delegates self-contained instructions to six registered expe
 
 ## 8. Current status
 
-Complete and statically validated: SKILL.md plus seven linked references (capability map, heuristics, conversation protocol, journal format, user guide, test plan, disclosures) pass the official checker with zero errors and zero warnings. Remaining: on-device validation of delegation depth, quarantine semantics, and journal read-back.
+Complete and statically validated: SKILL.md plus eleven linked reference documents pass the official checker with zero errors and zero warnings. Remaining: on-device validation of delegation depth, quarantine semantics, and journal read-back.
 
 ## 9. Validation plan
 
@@ -48,12 +48,34 @@ Argus flags suspicious files for review; it is not an antivirus. Large scopes ru
 
 ## Annex (outside the 500-word limit)
 
-**Entrant**: individual — Helmut Chaparro Sandoval. Bogotá D.C., Colombia.
+### A. Entrant identification
 
-**Consent**: I confirm this submission is my original work, developed during the Hackathon period, and I agree to the Official Rules. — Helmut Chaparro Sandoval
+**Full name**: Helmut Chaparro Sandoval — individual entry, no team members.
 
-**Third-party components and licenses**: none. Argus ships Markdown documentation only and uses published UGREEN NAS capabilities; no external libraries, services, or data flows.
+**Residence**: Bogotá D.C., Colombia — eligible country per Section 3 of the Official Rules.
 
-**AI tools used**: UGREEN UGOS Skill Creation Tool v0.7.3 (Sponsor-provided; capability consultation and static checks); Devin (Cognition), AI coding assistant, for drafting and validating the Markdown — all output reviewed and edited by the entrant.
+**Contact**: helmut.chs@gmail.com · Repository: github.com/HCHAPS404/ARGUS
 
-**Author's license**: the entrant's original work is intended for publication under the MIT License.
+### B. Consent declaration
+
+I, Helmut Chaparro Sandoval, declare that: (a) this submission is my original work; (b) the Skill and its core workflow were newly developed during the Hackathon period — development began on November 6, 2026; (c) no previously developed Skills or submission materials were reused; (d) I have read and agree to be bound by the Official Rules and the Devpost Terms of Service; and (e) I meet the eligibility requirements stated in the Official Rules.
+
+### C. Third-party components and licenses
+
+The Argus package ships Markdown documentation only; it invokes published UGREEN NAS capabilities at runtime and distributes no code, libraries, datasets, or external services.
+
+- **UGREEN Uliya Skill Kit v0.7.3** — sponsor-provided development tooling; used for capability consultation and static validation; not distributed inside the package.
+- **No other third-party components** — no external dependencies, fonts, images, or data flows are included.
+
+### D. AI tools used
+
+- **Devin** (Cognition) — AI coding assistant; supported drafting and validation of the Markdown skill files and proposal text. All output was reviewed, edited, and approved by the entrant; the concept, architecture, and decisions are the entrant's own.
+- **UGREEN UGOS Skill Creation Tool v0.7.3** — sponsor-provided; capability consultation and static checks.
+
+### E. Author's license
+
+The entrant's original work — the Argus skill package and its accompanying documentation — is intended for publication under the MIT License; the license text ships in the public repository.
+
+### F. Electronic signature
+
+/s/ Helmut Chaparro Sandoval — Bogotá D.C., Colombia — November 6, 2026

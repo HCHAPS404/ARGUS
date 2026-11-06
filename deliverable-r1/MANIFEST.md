@@ -6,16 +6,16 @@ Upload-ready contents. Deadline: **15 nov 2026, 11:45 pm PT** (16 nov ~2:45 am B
 
 | File | What it is | Status |
 |---|---|---|
-| `argus-r1.zip` | Skill package (Markdown-only, Uliya standard): `argus/SKILL.md` + 7 files in `references/` | ✅ ready — 13,847 B |
+| `argus-r1.zip` | Skill package (Markdown-only, Uliya standard): `argus/SKILL.md` + 11 files in `references/` | ✅ ready — 22,941 B |
 | `Argus-Project-Proposal.pdf` | Proposal PDF (exported from `proposal/Argus-Project-Proposal.docx`) | ✅ ready — 251,597 B (limit 1 MB) |
 
 ## Verification record
 
 - `node uliya-skill-kit/scripts/check-skill.mjs argus` → **static-pass**, 0 errors, 0 warnings, 0 info
-- ZIP contents: 8 Markdown files, 29,511 B uncompressed / 13,847 B zipped (limits: ≤100 files, ≤1 MB each, ≤10 MB)
+- ZIP contents: 12 Markdown files, 48,966 B uncompressed / 22,941 B zipped (limits: ≤100 files, ≤1 MB each, ≤10 MB)
 - Only `SKILL.md` + `references/` at package root; no scripts, binaries, manifests, credentials, or personal data
 - Proposal: 435 English words across the ten required answers (limit 500); Annex holds entrant, consent, licenses, AI tools
-- ZIP SHA-256: `3419081CED3D8A2DD090338DD065BFD290A61B5A6E6EF17E25B5667DD622B87D`
+- ZIP SHA-256 (v2): `0D4506BEB3E155127990F3B01C135D20890AF8AEE4ACB5B8D9F4938C3C9FC395`
 
 ## Upload checklist
 

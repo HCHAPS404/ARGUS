@@ -129,6 +129,10 @@ The journal entry records scope, findings per category, executed actions with be
 - [Heuristics](references/heuristics.md) — suspicious-file rules, severity levels, document classes, and the health-score rubric; read when tuning detection.
 - [Conversation protocol](references/conversation-protocol.md) — trigger phrases, plan table, approval grammar, and report formats; read when changing user interaction.
 - [Journal format](references/journal-format.md) — journal entry, undo manifest, preferences file, dashboard layout, and diff rules; read when changing persisted state.
+- [Runbook](references/runbook.md) — per-phase operational contract: targets, inputs, expected outputs, failure behavior; read when changing delegation logic.
+- [Edge cases](references/edge-cases.md) — required behavior for scope, state, execution, scale, evidence, and interaction anomalies; read when hardening.
+- [Sample journal](references/sample-journal.md) — worked end-to-end run with journal entry, undo manifest, dashboard, and health-score walkthrough; read for expected output shape.
+- [Security model](references/security-model.md) — detection scope, quarantine semantics, privacy boundaries, and what Argus never claims; read before changing heuristics or copy.
 - [User guide](references/user-guide.md) — who Argus is for, example requests, and what Argus never does; read for onboarding.
 - [Test plan](references/test-plan.md) — core and edge validation cases for the finalist NAS day; read before testing.
 - [Disclosures](references/disclosures.md) — third-party components, licenses, and AI tools used; read for compliance.

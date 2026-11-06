@@ -172,8 +172,20 @@ def main():
         line = line.strip()
         if not line or line.startswith("---"):
             continue
-        if line.startswith("**") and line.endswith("**"):
-            body_paragraph(doc, line)
+        if line.startswith("### "):
+            h = doc.add_paragraph()
+            h.paragraph_format.space_before = Pt(10)
+            h.paragraph_format.space_after = Pt(2)
+            run = h.add_run(line[4:])
+            run.bold = True
+            run.font.size = Pt(11.5)
+            run.font.color.rgb = BLACK
+        elif line.startswith("- "):
+            p = doc.add_paragraph(style="List Bullet")
+            p.paragraph_format.space_after = Pt(3)
+            add_md_runs(p, line[2:])
+            for run in p.runs:
+                run.font.color.rgb = BLACK
         else:
             body_paragraph(doc, line)
 
