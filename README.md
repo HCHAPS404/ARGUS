@@ -1,19 +1,16 @@
+<img alt="Argus — AI Steward" src="assets/brand/argus-banner-dark.png" width="100%">
+
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/brand/argus-logo-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="assets/brand/argus-logo-light.png">
-  <img alt="Argus — AI Steward" src="assets/brand/argus-logo-dark.png" width="720">
-</picture>
+![STATUS](https://img.shields.io/badge/STATUS-R1%20SUBMITTED-2e6b4f?style=for-the-badge)
+![TRACK](https://img.shields.io/badge/TRACK-OPEN%20INNOVATION-8db38b?style=for-the-badge)
 
-**The hundred-eyed steward for your UGREEN AI NAS**
+![UGOS](https://img.shields.io/badge/UGOS-Uliya%20Skill-9ec49a)
+![checker](https://img.shields.io/badge/checker-static--pass-2e6b4f)
+![package](https://img.shields.io/badge/package-Markdown--only-555555)
+![license](https://img.shields.io/badge/license-MIT-2e6b4f)
 
-Audits · proposes · waits for your yes · remembers everything
-
-[![License: MIT](https://img.shields.io/badge/license-MIT-2e6b4f)](LICENSE)
-[![Uliya checker](https://img.shields.io/badge/uliya%20checker-static--pass-2e6b4f)](argus/SKILL.md)
-[![Track](https://img.shields.io/badge/track-Open%20Innovation-8db38b)](proposal/argus-proposal.md)
-[![Format](https://img.shields.io/badge/package-Markdown--only-555555)](argus/)
+**[What it is](#what-is-argus) · [Why different](#why-it-is-different) · [How it works](#how-it-works) · [Modes](#modes) · [A run looks like](#how-a-run-looks) · [Validation](#validation) · [Docs](#documentation) · [License](#license)**
 
 </div>
 
@@ -89,6 +86,25 @@ tools/                  ← docx generator for the proposal
 assets/brand/           ← logo variants
 ```
 
+## How a run looks
+
+> **You:** Argus, full audit of Downloads.
+>
+> **Argus:** Scanning authorized scope — 1,847 files inventoried.
+> Found: 3 duplicate groups (214 MB recoverable), 2 flagged items for review, 41 large files older than 18 months.
+>
+> **Action plan** — 6 items proposed:
+> 1. Merge duplicate group `photo-2024-beach` (keep the higher-resolution copy)
+> 2. Move `report.pdf.exe` to quarantine — double extension, review required
+> 3. Archive 12 installers older than 2 years
+> …
+>
+> **You:** approve 1–3
+>
+> **Argus:** Done — 3/6 executed, 2 skipped, 1 awaiting input. Journal entry `2026-11-06T14-32` written with undo manifest. Health score: **78 → 86**. Say `revert` to roll back.
+
+Everything in the dialogue is grounded in catalog evidence — Argus never invents results, and a plan without your approval changes nothing.
+
 ## Validation
 
 ```bash
@@ -118,4 +134,16 @@ Package limits: 8 files · 13.8 KB zipped · Markdown only · no scripts, binari
 
 ## License
 
-[MIT](LICENSE) © 2026 Helmut Chaparro Sandoval
+[MIT](LICENSE) © 2026 Helmut Chaparro Sandoval — AI-tooling disclosure in [disclosures.md](argus/references/disclosures.md)
+
+---
+
+<div align="center">
+
+<img src="assets/brand/argus-icon-t.png" alt="Argus" width="72">
+
+**ARGUS** — propose, never impose · evidence decides · every move leaves a receipt
+
+<sub>Built for the UGREEN Hackathon 2026 on AI NAS · Bogotá D.C., Colombia · © 2026 Helmut Chaparro Sandoval</sub>
+
+</div>
